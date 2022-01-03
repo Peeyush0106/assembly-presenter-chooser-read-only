@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.student-choice-pop-up, .student-card-pop-up {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+}
+
+.formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.formContainer input[type=text], .formContainer input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+}
+
+.formContainer input[type=text]:focus, .formContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.formContainer .cancel {
+    background-color: #cc0000;
+}
+
+.formContainer .btn:hover, .openButton:hover {
+    opacity: 1;
+}
+
+#next-btn {
+    background-color: blue;
+    color: white;
+}
+
+#unnext-btn {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#done-btn {
+    background-color: green;
+    color: white;
+}
+
+#undone-btn {
+    background-color: red;
+    color: white;
+}

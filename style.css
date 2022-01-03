@@ -1,0 +1,22 @@
+html, body {
+    font-family: comic sans ms;
+    background-color: white;
+}
+
+#student-list {
+    text-transform: capitalize;
+    font-size: large;
+    padding-left: 10%;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.4);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#student-name {
+    text-transform: capitalize;
+}

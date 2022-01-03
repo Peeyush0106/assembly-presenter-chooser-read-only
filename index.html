@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assembly Presenter Chooser - View Only</title>
+    <script src="firebase-app.js"></script>
+    <script src="firebase-analytics.js"></script>
+    <script src="firebase-database.js"></script>
+    <script src="firebase-auth.js"></script>
+    <script src="loading.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.play.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup-styles.css">
+
+    <h3>
+        Read-only view
+    </h3>
+
+    <br><br>
+
+    <div id="content-for-connected-users">
+        <div style="font-size: large;">
+            All student names:
+            <br>
+        </div>
+        <ul id="student-list">
+        </ul>
+        <script src="app.js"></script>
+        <br><br>
+        <button onclick="downloadDataAsHTML()">
+            Download Today's Data as Website (.html)
+        </button>
+        <button onclick="downloadDataAsTxt()">
+            Download Today's Data as Plain Text (.txt)
+        </button>
+    </div>
+
+
+</body>
+
+</html>
